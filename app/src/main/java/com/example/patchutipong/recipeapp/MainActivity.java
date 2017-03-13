@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.menu);
         ListView listViewHandler=(ListView)findViewById(R.id.usefulList);
-        String[] menuItems={"menuItem 1","menuItem 2","menuItem 3","menuItem 1","menuItem 2","menuItem 3","menuItem 1","menuItem 2","menuItem 3","menuItem 1","menuItem 2","menuItem 3"};
+        String[] menuItems={"menuItem 2","menuItem 3","menuItem 1","menuItem 2","menuItem 3","menuItem 1","menuItem 2","menuItem 3","menuItem 1","menuItem 2","menuItem 3"};
         arrayList = new ArrayList<>(Arrays.asList(menuItems));
         adapter = new ArrayAdapter<String>(this,R.layout.listitem,R.id.textItem,arrayList);
         listViewHandler.setAdapter(adapter);
