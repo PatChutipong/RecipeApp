@@ -17,7 +17,8 @@
             android:layout_gravity="center_horizontal"
             android:padding="0dip"
             android:layout_margin="20dip"
-            android:id="@+id/fr_button" />
+            android:id="@+id/fr_button"
+            android:onClick="navigate" />
 
         <ImageButton
             android:layout_width="wrap_content"

@@ -13,7 +13,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void navigate(View view){
-        Intent move = new Intent(this,);
+        Intent move = new Intent(this,ListActivity.class);
+        startActivity(move);
     }
 
 }
